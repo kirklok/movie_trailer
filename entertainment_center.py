@@ -2,7 +2,7 @@ import media
 import fresh_tomatoes
 import imdb  # pip install imdb
 
-# initialize IMDB and get firs 6 movies
+# initialize IMDB and get first 6 movies
 # from the list of top 250 movies
 ia = imdb.IMDb()
 top6 = ia.get_top250_movies()[:6]
