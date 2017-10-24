@@ -6,8 +6,6 @@ class Movie():
     Class that store movie information
     for Udacity movie trailer project
     """
-
-
     def __init__(self, movie_title, movie_storyline,
                  movie_poster_image_url,
                  movie_trailer_youtube_url):
