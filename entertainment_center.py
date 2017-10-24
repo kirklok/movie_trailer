@@ -8,7 +8,7 @@ ia = imdb.IMDb()
 top6 = ia.get_top250_movies()[:6]
 movies = []
 
-#trailers for those top 6 movies
+# trailers for those top 6 movies
 trailers = ['https://www.youtube.com/watch?v=6hB3S9bIaco',
             'https://www.youtube.com/watch?v=sY1S34973zA',
             'https://www.youtube.com/watch?v=8PyZCU2vpi8',
